@@ -46,8 +46,19 @@ body{
       <div class="m-2"> <h5>Email address</h5></div>
       <input class="form-control m-2" type="email" placeholder="email" name="email">
       <div class="m-2"> <strong><h4>Choose a session</h4></strong></div>
-          <div class="m-2"> Morning 9:00-11:00 AM</div>
-          <div class="m-2"> Afternoon 2:00-4:00 PM</div>
+          <div class="form-check m-2">
+    <input class="form-check-input" type="radio" name="session" id="morning">
+    <label class="form-check-label" for="morning">
+        Morning 9:00-11:00 AM
+    </label>
+</div>
+
+<div class="form-check m-2">
+    <input class="form-check-input" type="radio" name="session" id="afternoon">
+    <label class="form-check-label" for="afternoon">
+        Afternoon 2:00-4:00 PM
+    </label>
+</div>
              <input class="btn-solid  bg-primary rounded-2 m-2 text-center text-white" color type="submit" value="Register">  
           <div><h6>practice form. Enteries are discarded</h6></div>          
    
